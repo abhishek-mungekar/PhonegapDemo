@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>Demo Phone Gap </title>
+
+
+
+
+</head>
+
+
+<body>
+
+<button id="click">Click HERE!</button>
+<button id="clear">Clear</button>
+<div id="results"></div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+$('#click').click(function()
+{
+DEMO.DoIt($('#results'));
+
+});
+
+$('#clear').click(function()
+{
+$('#results').html('');
+
+});
+
+</script>
+
+</body>
+
+</html>
